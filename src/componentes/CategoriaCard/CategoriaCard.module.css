@@ -1,0 +1,18 @@
+.categoria__imagemCard{
+    width: 9rem;
+    margin-top: 1rem;
+    flex-shrink: 0;
+}
+
+.categoria__titulo {
+    background-color: var(--preto);
+    color: white;
+    margin-top: -4px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.categoria__card {
+    padding: 0;
+    justify-items: center;
+}

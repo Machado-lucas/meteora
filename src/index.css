@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    /* CORES PRIMÁRIAS */
+    --preto: #000;
+    --cinza: #ccc;
+    --amarelo: #daff01;
+    --roxo: #9353ff;
+
+    --vermelho: #ee6471;
+    --laranja: #f87f46;
+    --cinza-fundo: #343A40;
+
+    /* Cores Banners */
+    --roxo-banner: #895fb5;
+
+    /* Fontes */
+    --font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.65rem;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (min-width: 660px) {
+    h3 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1080px) {
+    h3 {
+        font-size: 2rem;
+    }
 }
