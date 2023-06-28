@@ -1,0 +1,29 @@
+.newsletter {
+  height: 236px;
+  padding: 40px;
+}
+
+.containerBox {
+  border: 1px solid #000;
+  height: 100%;
+  text-align: center;
+  padding: 24px;
+}
+
+.newsletter__texto {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.newsletter__formulario {
+  margin: 20px 0;
+}
+
+.newsletter__formularioInput {
+  border: 1px solid #000;
+  padding: 4px;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+}
