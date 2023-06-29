@@ -1,0 +1,42 @@
+.card {
+    margin: 1.5rem;
+    border: solid 1px var(--cinza);
+    max-width: 322px;
+}
+
+.card__detalhes {
+    text-align: start;
+    margin: 1.5rem;
+}
+
+.card__detalhes h4 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4375rem;
+    margin-bottom: 1rem;
+}
+
+.card__imagem {
+    width: 100%;
+    max-width: 323px;
+    max-height: 389px;
+}
+
+.card__detalhesDescricao {
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.card__detalhesBotao {
+    background-color: var(--roxo);
+    border: 1px solid var(--roxo);
+    color: white;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}

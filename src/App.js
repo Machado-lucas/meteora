@@ -3,6 +3,8 @@ import Navbar from './componentes/Navbar';
 import Categoria from 'componentes/Categoria';
 import Facilidades from 'componentes/Facilidades';
 import Novidades from 'componentes/Novidades';
+import Rodape from 'componentes/Rodape';
+import Produto from 'componentes/Produto';
 
 function App() {
   return (
@@ -10,8 +12,10 @@ function App() {
       <Navbar />
       <Banner />
       <Categoria />
+      <Produto />
       <Facilidades />
       <Novidades />
+      <Rodape />
     </>
   );
 }

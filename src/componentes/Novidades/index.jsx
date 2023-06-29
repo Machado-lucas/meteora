@@ -11,7 +11,7 @@ const Novidades = () => {
         </h4>
         <form action="" className={styles.newsletter__formulario}>
           <input type="email" name="" id="" placeholder="Digite seu email" className={styles.newsletter__formularioInput}/>
-          <button>Enviar</button>
+          <button className={styles.newsletter__formularioBotao}>Enviar</button>
         </form>
       </div>
     </section>
