@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import NavbarLinks from './NavbarLinks'
-import styles from './Navbar.module.css'
+import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { IoMdClose } from 'react-icons/io'
+import NavbarLinks from './NavbarLinks'
+import styles from './Navbar.module.css'
+
 
 
 function NavbarMobile() {

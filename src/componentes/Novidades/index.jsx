@@ -1,7 +1,8 @@
-import React from "react";
-import styles from "./Novidades.module.css";
+/* eslint-disable react/button-has-type */
+import React from 'react';
+import styles from './Novidades.module.css';
 
-const Novidades = () => {
+function Novidades() {
   return (
     <section className={styles.newsletter}>
       <div className={styles.containerBox}>
@@ -10,12 +11,18 @@ const Novidades = () => {
           primeira compra? Cadastre-se!
         </h4>
         <form action="" className={styles.newsletter__formulario}>
-          <input type="email" name="" id="" placeholder="Digite seu email" className={styles.newsletter__formularioInput}/>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Digite seu email"
+            className={styles.newsletter__formularioInput}
+          />
           <button className={styles.newsletter__formularioBotao}>Enviar</button>
         </form>
       </div>
     </section>
   );
-};
+}
 
 export default Novidades;

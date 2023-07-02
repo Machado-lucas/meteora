@@ -1,26 +1,31 @@
 .banner {
-    background-image: url("./assets/Mobile/bannerCarousel1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--roxo-banner);
-    width: 100%;
-    height: 415px;
-    margin-top: 4.5em;
+  margin-top: -5px;
+  position: relative;
+  width: 100%;
+}
+
+.voltar,
+.avancar {
+  position: absolute;
+  cursor: pointer;
+}
+
+.voltar {
+  left: 40px;
+  top: 50%;
+}
+.avancar {
+  right: 40px;
+  top: 50%;
 }
 
 @media (min-width: 660px) {
-    .banner {
-        background-image: url("./assets/Tablet/bannerCarousel1.png");
-        width: 100%;
-        margin-top: 0;
-    }
+  .banner {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1440px) {
-    .banner {
-        background-image: url("./assets/Desktop/bannerCarousel1.png");
-        width: 100%;
-        height: 25.9375rem;
-        margin-top: 0;
-    }
+  .banner {
+  }
 }
